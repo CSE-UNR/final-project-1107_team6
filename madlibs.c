@@ -1,6 +1,6 @@
 //Authors: Gabriel Markovetski,  Leah Kinne, and Collin Bible
 //Date: 12/6/2024
-//Project:
+//Project: Madlibs
 
 #include <stdio.h>
 
@@ -14,6 +14,7 @@
 int readFile(FILE* fptr, int rows, int cols, char words[][cols]);
 void wordType(int rows, int cols, char words[][cols], char prompts[]);
 void removeEnd (int rows, int cols, char words[][cols]);
+int isAlphabet(char c);
 void displayStory(int rows, int cols, char words[][cols], char prompts[]);
 
 int main() {
